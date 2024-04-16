@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Weather React Application 🌡️🌩️🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
+This project is a web application built using React, providing users with the ability to search for and view the weather and current time for any city around the world. The application is fully responsive, ensuring a seamless experience across various devices and screen sizes.
+<br />
+<br />
 
-Currently, two official plugins are available:
+## Key Features 🧭
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- <b>Weather Information:</b> Users can search for a specific city and retrieve real-time weather information, including temperature, humidity, wind speed, and weather conditions.
 
-## Expanding the ESLint configuration
+- <b>Time Zone Conversion:</b> Along with weather data, the application also displays the current time for the selected city, adjusted to its respective time zone.
+- <b>Search Functionality:</b> The search feature allows users to quickly find the desired city by typing its name in the search bar. Autocomplete suggestions enhance user experience and accuracy.
+- <b>Responsive Design:</b> Utilizing React, the application offers full responsiveness, ensuring optimal display and functionality across desktops, tablets, and mobile devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img src="https://img.shields.io/badge/-React-blue" alt="react"/> &nbsp; <img src="https://img.shields.io/badge/-Typescript-blue" alt="typescript"/> &nbsp; <img src="https://img.shields.io/badge/-Styled Components-blue" alt="Styled Component"/> &nbsp; <img src="https://img.shields.io/badge/-Light/Dark mode-blue" alt="Light/Dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-Minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-Responsice-blue" alt="responsice"/> &nbsp; <img src="https://img.shields.io/badge/-google api-blue" alt="google api"/> &nbsp; <img src="https://img.shields.io/badge/-react router dom loaders-blue" alt="react-router-dom loaders"/> &nbsp; <img src="https://img.shields.io/badge/-react query-blue" alt="react query"/>
 
-- Configure the top-level `parserOptions` property like this:
+## Demo 🎥
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Check live demonstration <a href="https://weather.enikosoft.com/"><strong>here</strong></a>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Images of the application:
+![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/demo1.png)
+![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/demo2.png)
+![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/mobile1.png)
+![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/mobile2.png)
+
+## Run Locally
+You need API KEY for Google Place API and for Weather API (https://www.visualcrossing.com)
+Create .env.local file:
+- ``VITE_WEATHER_API_URL=https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/``
+- ``VITE_WEATHER_API_KEY=XXX``
+- ``VITE_GOOGLE_API_KEY=XXX``
+
+Run this command 
+- ``git clone https://github.com/enikosoft/portfolio.git``
+- ``npm install``
+- ``npm run dev``
+<p>You are now in the dev environment and you can play around
+
+## 🌱 Contribution
+If you have any suggestions on what to improve in Reactfolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
