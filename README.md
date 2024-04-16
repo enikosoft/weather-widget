@@ -20,10 +20,10 @@ This project is a web application built using React, providing users with the ab
 Check live demonstration <a href="https://weather.enikosoft.com/"><strong>here</strong></a>
 
 ## Images of the application:
-![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/demo1.png)
-![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/demo2.png)
-![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/mobile1.png)
-![React Portfolio Website](https://github.com/enikosoft/portfolio/blob/main/readme-images/mobile2.png)
+![React Weather App](https://github.com/enikosoft/weather-widget/blob/main/readme-images/demo1.png)
+![React Weather App](https://github.com/enikosoft/weather-widget/blob/main/readme-images/demo2.png)
+![React Weather App](https://github.com/enikosoft/weather-widget/blob/main/readme-images/mobile1.png)
+![React Weather App](https://github.com/enikosoft/weather-widget/blob/main/readme-images/mobile2.png)
 
 ## Run Locally
 You need API KEY for Google Place API and for Weather API (https://www.visualcrossing.com)
